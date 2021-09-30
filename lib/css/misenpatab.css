@@ -1,0 +1,400 @@
+/* CSS Document */
+
+@font-face {
+font-family: 'MV Boli';
+-moz-font-family: 'MV Boli';
+-webkit-font-family: 'MV Boli';
+-khtml-font-family: 'MV Boli';
+-o-font-family: 'MV Boli';
+src: url('../Font/mvboli.eot');
+     url('../Font/mvboli.woff2');
+     url('../Font/mvboli.ttf');
+     url('../Font/mvboli.woff');
+}
+
+body {
+scrollbar-face-color: #669900;
+scrollbar-shadow-color: #ffffff;
+scrollbar-highlight-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;  
+scrollbar-darkshadow-color: #ffffff;  
+scrollbar-track-color: #000000;
+scrollbar-arrow-color: #ffffff;
+margin: 0px;
+padding: 0px;
+background-image: url('/lib/img/carre.jpg');
+}
+
+/*---------Menu Admin-------------------------------------------------*/
+ 
+#MenuAdmin {
+font-family: 'Orbitron' sans-serif;
+width: 100%;
+min-width: 480px;
+height: 25px;
+background-color: #333333; 
+padding: 5px 0px 5px 0px;
+background-image: linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+background-image: -webkit-linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+background-image: -moz-linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+background-image: -o-linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+}
+
+#MenuAdmin  ul {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+text-align: left;
+}
+
+#MenuAdmin  li {
+display: inline-block;
+font-weight: bold;
+margin-left: 15px;
+padding-left: 10px;
+padding-right: 20px;
+border-left: 2px dashed #666666;  
+transition: all 300ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+#MenuAdmin  a {
+font-size: 14px;
+color: #FFFFFF;
+text-decoration: none;  
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+#MenuAdmin  a:hover {
+font-size: 14px;
+color: #ff6600;
+text-decoration: none;
+}
+
+#MenuAdmin  li:hover {
+display: inline-block;
+font-weight: bold;
+margin-left: 15px;
+padding-left: 10px;
+padding-right: 20px;
+border-left: 2px dashed #FFFFFF; 
+}
+
+/*---------NeuroSoft Team -------------------------------------------------*/
+
+#NeuroSoft img {
+position: fixed;
+bottom: 0px;
+right: 0px;
+width: 80px;
+}
+
+/*---------Class -------------------------------------------------*/
+
+.vert {
+color :#669900;
+font-size: 60px;
+font-weight: bold;
+}
+
+.bouton_1 {
+background-image: url("/lib/img/boutons/1.png");
+backgroung-repeat: no-repeat;
+width: 125px;
+height: 50px;
+padding: 25px 0px 0px 35px;
+}
+
+.bouton_2 {
+background-image: url("/lib/img/boutons/2.png");
+backgroung-repeat: no-repeat;   
+width: 125px;
+height: 50px;
+padding: 25px 0px 0px 35px;
+}
+
+.bouton_3 {
+background-image: url("/lib/img/boutons/3.png");
+backgroung-repeat: no-repeat; 
+width: 125px;
+height: 50px;
+padding: 25px 0px 0px 35px;
+}
+
+.bouton_4 {
+background-image: url("/lib/img/boutons/4.png");
+backgroung-repeat: no-repeat;   
+width: 125px;
+height: 50px;
+padding: 25px 0px 0px 35px;
+}
+
+.bouton_5 {
+background-image: url("/lib/img/boutons/5.png");
+backgroung-repeat: no-repeat;  
+width: 125px;
+height: 50px;
+padding: 25px 0px 0px 35px;
+}
+
+.bouton_6 {
+background-image: url("/lib/img/boutons/6.png");
+backgroung-repeat: no-repeat;  
+width: 125px;
+height: 50px;
+padding: 25px 0px 0px 35px;
+}
+
+/*---------Global -------------------------------------------------*/
+
+#Center {
+width: 480px;
+min-width: 480px;
+}
+
+header, nav, section, footer, #pub {
+width: 100%;
+}
+
+header, section, footer {
+font-family: 'Times New Roman';
+-moz-font-family: 'Times New Roman';
+-webkit-font-family: 'Times New Roman';
+-khtml-font-family: 'Times New Roman';
+-o-font-family: 'Times New Roman';
+font-size: 16px;
+font-weight: normal;
+}
+
+H1, H2, H3, nav {
+font-family: 'MV Boli';
+-moz-font-family: 'MV Boli';
+-webkit-font-family: 'MV Boli';
+-khtml-font-family: 'MV Boli';
+-o-font-family: 'MV Boli';
+font-weight: bold;
+}
+
+H1 {
+font-size: 23px;
+background-color: none;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 10px;
+color: #111111;
+/*text-shadow: 2px 1px 3px #333333; */
+border-top: 2px solid #669900;
+border-radius: 0px 8px 8px 0px;
+border-bottom: 2px solid #336600;
+}
+
+H2 {
+font-size: 21px;
+}
+
+H3 {
+text-transform: uppercase;
+font-size: 18px;
+font-weight: bold;
+color: #FFFFFF;
+margin: 0px;
+border-bottom: 1px solid #6c1111;
+}
+
+
+/*--------- Header -------------------------------------------------*/
+
+header {
+min-height: 140px;
+}
+
+/*---------Pub -------------------------------------------------*/
+
+#pub {
+display: none;
+background-color: #222222;
+color: white;
+padding: 50px 0px 50px 0px;
+font-size: 35px;
+}
+
+/*---------Menu -------------------------------------------------*/
+
+nav {
+color: #111111;
+background-color: #FFFFFF;
+/*text-transform: uppercase;   */
+}
+
+nav  ul {
+padding: 0px;
+margin: 0px;
+list-style-type: none;
+}
+
+nav  li {
+display: inline-block;
+font-weight: bold;
+}
+
+nav  a {
+font-size: 14px;
+color: #111111;
+text-decoration: none;  
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+nav  a:hover {
+color: #669900;
+text-decoration: none;
+}
+
+nav  li:hover {
+display: inline-block;
+font-weight: bold;
+}
+
+nav img {
+height: 14px;
+}
+
+/*---------Section -------------------------------------------------*/
+
+section {
+min-height: 400px;
+background-color: #FFFFFF;
+padding: 10px 0px 90px 0px;
+overflow: auto;
+}
+
+/*---------Article -------------------------------------------------*/
+
+article {
+float: left;
+width: 460px;
+text-align: justify;
+min-height: 200px;
+background-color: none;
+color: #333333;
+padding: 10px;
+}
+
+article img {
+margin: 10px;
+}
+
+/*---------FOOTER -------------------------------------------------*/       
+    
+footer {
+position: fixed;
+bottom: 0px;
+
+min-height: 18px;
+padding: 58px 0px 0px 0px;
+
+background-image: url("/lib/img/basdepage.png");
+backgroung-repeat: no-repeat;
+backgroung-position: center bottom;
+}
+
+footer #Center {
+text-shadow: 2px 1px 3px #660099;
+background-color: #FFFFFF;
+color: #333333;
+border-radius: 17px 17px 0px 0px;
+border-top: 1px solid #660099;
+}
+
+/*---Formulaire-----------------------------------------------*/
+
+
+input[type="text"] {
+width: 200px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+input[type="file"] {
+width: 400px;
+padding: 3px;
+height: 30px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+select {
+min-width: 210px;
+padding: 3px;
+height: 30px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+input[type="password"] {
+width: 200px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+input[type="email"] {
+width: 400px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+/*---Bouton-----------------------------------------------*/
+
+input[type="submit"] {
+text-align: center;
+color: #111111;
+width: 120px;
+height: 33px;
+background-color: #669900;
+}
+
+input[type="button"] {
+text-align: center;
+color: #111111;
+width: 120px;
+height: 33px;
+background-color: #669900;
+}
+

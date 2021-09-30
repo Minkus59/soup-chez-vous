@@ -1,0 +1,294 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,700);
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+
+body { 
+background-color: #F1F1F1;
+/*font-family: 'Orbitron', sans-serif;*/ 
+font-family: 'Play', sans-serif;
+font-size: 16px;
+font-weight: normal;
+cell-paccing
+scrollbar-shadow-color: #ffffff;
+scrollbar-highlight-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;  
+scrollbar-darkshadow-color: #ffffff;  
+scrollbar-track-color: #333333;
+scrollbar-arrow-color: #cccccc;
+scrollbar-face-color: #ff6600;
+color: #333333;
+margin: 0px;
+padding: 0px; 
+}
+
+.NeuroSoft {
+color: #FF6600;
+font-weight: bold;
+}
+
+.up {
+color: #0090A0;
+}
+
+#Center {
+width: 960px;
+min-width: 960px;
+float: center;
+} 
+
+H1 {
+font-size: 29px;
+background-color: none;
+margin: 20px 0px 0px 0px;
+padding: 0px 0px 0px 10px;
+color: #0a2335;
+/*text-shadow: 2px 2px #333333; */
+border-top: 2px solid #222222;
+border-radius: 8px 8px 8px 8px;
+border-bottom: 2px solid #222222;
+}
+
+H2 {
+font-size: 21px;
+}
+
+H3 {
+text-transform: uppercase;
+font-size: 23px;
+font-weight: bold;
+color: #FFFFFF;
+margin: 0px;
+border-bottom: 1px solid #6c1111;
+}
+
+/*---------Menu -------------------------------------------------*/ 
+ 
+#Menu {
+font-family: 'Orbitron' sans-serif;
+width: 100%;
+min-width: 960px;
+height: 25px;
+background-color: #333333; 
+padding: 5px 0px 5px 0px;
+background-image: linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+background-image: -webkit-linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+background-image: -moz-linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+background-image: -o-linear-gradient(#666666 5px, #000000 33px, #FF6600 33px, #FF6600 35px);
+}
+
+#Menu ul { 
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+text-align: left;
+}
+
+#Menu li {
+display: inline-block;
+font-weight: bold;
+margin-left: 15px;
+padding-left: 10px;
+padding-right: 20px;
+border-left: 2px dashed #666666;  
+transition: all 300ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+#Menu a {
+font-size: 14px;
+color: #FFFFFF;
+text-decoration: none;  
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+#Menu a:hover {
+font-size: 14px;
+color: #ff6600;
+text-decoration: none;
+}
+
+#Menu li:hover {
+display: inline-block;
+font-weight: bold;
+margin-left: 15px;
+padding-left: 10px;
+padding-right: 20px;
+border-left: 2px dashed #FFFFFF; 
+}
+
+#logo {
+float: center;
+background-color: #333333; 
+}
+
+/*---------SECTION -------------------------------------------------*/  
+
+section {  
+float: left;
+width: 960px;
+min-height: 450px;
+color: #F1F1F1;
+overflow: hidden; 
+}
+
+/*---------Article-------------------------------------------------*/
+
+article {
+margin: 20px 10px 20px 10px;
+padding: 10px;
+float: left;
+width: 900px;
+min-height: 150px; 
+text-align: justify;
+text-decoration: none;
+color: #333333;
+background-color: rgba(208, 208, 208, 0.5);  
+-webkit-box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-moz-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+box-shadow:         0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+background-image: url("http://neuro-soft.fr/lib/img/webdesing-carrer-blanc.png");
+/*background-repeat: repeat;  */
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}   
+
+article li {
+margin-left: 60px;
+}
+
+article a {
+color: #ff6600;
+text-decoration: none;     
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+article a:hover {
+color: #999999;
+}
+
+/*---------FORMULAIRE -------------------------------------------------*/
+
+input[type="submit"] {
+text-align: center;
+color: #0090A0;
+width: 120px;
+height: 33px;
+background-image: linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+background-image: -webkit-linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+background-image: -moz-linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+background-image: -o-linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-moz-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-o-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+box-shadow:         0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-o-border-radius: 10px 10px 10px 10px;
+}
+
+input[type="button"] {
+text-align: center;
+color: #0090A0;
+width: 120px;
+height: 33px;
+background-image: linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+background-image: -webkit-linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+background-image: -moz-linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+background-image: -o-linear-gradient(#666666 5px, #000000 28px, #FF6600 28px, #FF6600 30px);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-moz-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-o-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+box-shadow:         0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-o-border-radius: 10px 10px 10px 10px;
+}
+
+textarea {
+width: 800px;
+}
+
+input[type="text"] {
+width: 200px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+input[type="file"] {
+width: 400px;
+padding: 3px;
+height: 30px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+select {
+min-width: 210px;
+padding: 3px;
+height: 30px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+input[type="password"] {
+width: 200px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+  input[type="email"] {
+width: 400px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+/*---------------------------------------------------------------------*/
+
+.col_2 {
+width: 190px;
+float: left;
+text-align: right;
+padding-right: 10px;
+}
+
